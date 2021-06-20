@@ -1,12 +1,23 @@
 {
-  "name": "chapter-1",
-  "version": "1.0.0",
-  "description": "Chapter where I learned the basics of using npm, including how to work with the package.json and how to manage your installed dependencies.",
-  "main": "index.js",
-  "git repository": "https://github.com/broncasrafa/freeCodeCamp-nodejs-APIs-Microservices.git",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Rafael Francisco",
-  "license": "ISC"
+	"name": "fcc-learn-npm-package-json",
+	"version": "1.0.0",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"author": "Rafael Francisco",
+	"description": "Chapter where I learned the basics of using npm, including how to work with the package.json and how to manage your installed dependencies.",
+	"keywords": [
+		"nodejs",
+		"freecodecamp",
+		"backend"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/broncasrafa/freeCodeCamp-nodejs-APIs-Microservices.git"
+	}
 }
