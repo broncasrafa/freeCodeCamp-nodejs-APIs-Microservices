@@ -63,5 +63,8 @@ app.get('/api/:date?', (req, res) => {
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
-  console.log('Your app is listening on port ' + listener.address().port);
+  var port = listener.address().port;
+
+  console.log(`Your app is listening on port ${port}`);
+  console.log(`Your app is running on link http://localhost/${port}`);
 });
